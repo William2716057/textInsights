@@ -1,11 +1,10 @@
-#total word count 
 
+#total word count 
 def initial_count(filename):
     with open(filename, 'r') as file:
         content = file.read() 
         words = content.split()  
     return len(words)
-
 
 #count distinct words
 def count_distinct(filename):
@@ -19,8 +18,13 @@ def count_distinct(filename):
         distinct_words = set(words_in_file)
 
     return len(distinct_words)
-text_sample = "sample.txt"
 
+#character frequencies 
+#word frequencies 
+#average word length
+#suffix checks
+
+text_sample = "sample.txt"
 total_words = initial_count(text_sample)
 count_number = count_distinct(text_sample)
 print(f"The total number of words in the text is {total_words}")
