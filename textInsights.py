@@ -29,7 +29,5 @@ if count_number == 1:
     print(f"There is {count_number} distinct word in the sample")
 if count_number > 1:
     print(f"There are {count_number} distinct words in the sample")
-if count_number == 0:
+else:
     print("No words found in sample")
-#else: 
-    #print("No words or something else went wrong")
