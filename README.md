@@ -15,3 +15,10 @@ git clone https://github.com/William2716057/textInsights.git
 ```
 python3 textInsights.py
 ```
+## Example Output
+```
+The total number of words in the text is 250
+There are 150 distinct words in the sample
+```
+### Requirements
+- Python 3.x
